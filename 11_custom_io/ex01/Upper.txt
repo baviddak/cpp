@@ -1,0 +1,5 @@
+Hi! This is a File which contains Upper Case and lower case characters!
+That is all for this file.
+Thank you.
+There are also some numbers: 1, 2, 4
+Just to confuse us!
