@@ -18,7 +18,7 @@ $(ODIR)/%.o: %.cpp $(DEPS)
 	$(CC) -c -g -o $@ $(CXXFLAGS) $< 
 
 # Link stage
-Books: $(OBJ)
+Books.exe: $(OBJ)
 	$(CC) -o $@ $^ $(LIBS)
 
 clean: 
