@@ -14,7 +14,7 @@ $(ODIR)/%.o: %.cpp $(DEPS)
 	$(CC) -c -o $@ $< $(CXXFLAGS)
 
 # For the below, no libs are needed to be included 
-Name_pairs: $(OBJ)
+Name_pairs.exe: $(OBJ)
 	$(CC) -o $@ $^
 
 clean: 
