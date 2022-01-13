@@ -10,7 +10,7 @@ int main() {
 
 	Rectangle retg{Point{50,50}, 100, 40};	
 
-	Text txt{Point{70,70}, "Howdy Motherfucker!"};
+	Text txt{Point{70,70}, "Howdy!"};
 
 	win.attach(retg);
 	win.attach(txt);
