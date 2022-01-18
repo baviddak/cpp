@@ -5,8 +5,6 @@
 using namespace std;
 
 
-
-
 int main() { 
 	// Write a program ...
 
@@ -22,8 +20,6 @@ int main() {
 	cin >> a >> b >> c;
 
 	vector<string> my_nums = {a, b, c};
-
-
 	
 	return 0;
 }
