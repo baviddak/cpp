@@ -8,10 +8,10 @@ _OBJ = Rational.o main.o
 OBJ = $(patsubst %, $(ODIR)/%,$(_OBJ))
 
 # Dependancies (headers)
-DEPS = Book.h
+DEPS = Rational.h
 
 # Libraries
-LIBS=-lm 
+# LIBS=-lm
 
 # Compile stage
 $(ODIR)/%.o: %.cpp $(DEPS)
@@ -22,4 +22,4 @@ Rational.exe: $(OBJ)
 	$(CC) -o $@ $^ $(LIBS)
 
 clean: 
-	rm -f $(ODIR)/*.o core Books.exe
+	rm -f $(ODIR)/*.o core Rational.exe
