@@ -1,3 +1,4 @@
+./.vscode/*
 ./GUI/*
 ./*.exe
 ./*.txt
