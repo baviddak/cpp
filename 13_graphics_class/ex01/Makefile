@@ -1,8 +1,8 @@
 # Set variables
 CC=g++
-CXXFLAGS=-Wall -I. -std=c++14
-ODIR=obj
 GUIDIR=../../GUI/
+CXXFLAGS=-Wall -I. -I$(GUIDIR) -std=c++14
+ODIR=obj
 
 # Objects
 _OBJ = Arc.o main.o
