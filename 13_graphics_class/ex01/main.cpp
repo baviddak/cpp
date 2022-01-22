@@ -10,9 +10,6 @@ int main(){
 	
 	Simple_window win{tl, 700, 700, "Canvas"};
 
-	// Text txt_a{Point{70,170}, "A"};
-    // win.attach(txt_a);
-
     Point my_point{300,300};
 
     int mw = 80;
@@ -24,8 +21,6 @@ int main(){
     Arc my_arc{my_point, mw, mh, a1, a2};
 
     win.attach(my_arc);
-
-
 	win.wait_for_button();
     return 0;
 }
