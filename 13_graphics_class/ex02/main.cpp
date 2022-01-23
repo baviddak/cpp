@@ -17,8 +17,9 @@ int main(){
     Box box1{point1, mw1, mh1};
     
     box1.set_color(Color::red);
+    box1.set_style(Line_style::dot);
 
-    // First Box
+    // Second Box
     Point point2{400,400};
 
     int mw2 = 160;
@@ -27,10 +28,22 @@ int main(){
     Box box2{point2, mw2, mh2};
     
     box2.set_color(Color::dark_green);
+    // box1.set_style(Line_style::dash);
+
+    // Third Box
+    Point point3{500,100};
+
+    int mw3 = 100;
+    int mh3 = 100;
+
+    Box box3{point3, mw2, mh2};
+    
+    box3.set_color(Color::dark_yellow);
 
     // Attach and run
     win.attach(box1);
     win.attach(box2);
+    win.attach(box3);
 	win.wait_for_button();
     return 0;
 }
