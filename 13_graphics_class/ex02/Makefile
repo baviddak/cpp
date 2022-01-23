@@ -5,22 +5,22 @@ CXXFLAGS=-Wall -I. -I$(GUIDIR) -std=c++14
 ODIR=obj
 
 # Objects
-_OBJ = Arc.o main.o
+_OBJ = Box.o main.o
 OBJ = $(patsubst %, $(ODIR)/%,$(_OBJ))
 
 # Dependancies (headers)
-DEPS = Arc.h
+DEPS = Box.h
 
 # Libraries
-LIBS=-lfltk -lfltk_images
+LIBS= -lfltk -lfltk_images
 
 # Compile stage
 $(ODIR)/%.o: %.cpp $(DEPS)
 	$(CC) -c -g -o $@ $(CXXFLAGS) $< 
 
 # Link stage
-Arc.exe: $(OBJ) $(GUIDIR)*.o
+Box.exe: $(OBJ) $(GUIDIR)*.o
 	$(CC) -o $@ $^ $(LIBS)
 
 clean: 
-	rm -f $(ODIR)/*.o core Arc.exe
+	rm -f $(ODIR)/*.o core Box.exe

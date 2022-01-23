@@ -5,7 +5,6 @@ Arc::Arc(Point pp, int ww, int hh, double a1, double a2)
 {
     // add checks so that the angles and point make sense
 
-
     // not sure what add does
     add(p);
 }
