@@ -1,4 +1,3 @@
-#include <iostream>
 #include "Simple_window.h"
 #include "Arc.h"
 
