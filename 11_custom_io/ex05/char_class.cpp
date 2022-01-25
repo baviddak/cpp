@@ -56,9 +56,6 @@ void char_class(string& in_word){
 
 
 int main() { 
-	// Write a program that removes all vowels
-    // from a file
-
 	// open an istream
 	cout << "Please enter a string\n";
 	string in_word;
