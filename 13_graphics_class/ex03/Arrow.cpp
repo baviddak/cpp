@@ -15,7 +15,7 @@ Arrow::Arrow(Point aa, Point bb)
     this->add_point(d);
     this->black();
 
-    add(aa);
+    // add(aa);
 }
 Arrow::~Arrow(){}
 
