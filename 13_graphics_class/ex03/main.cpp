@@ -14,7 +14,15 @@ int main(){
 
     Arrow arr1{p1, p2};
 
+
+    // Second Arrow
+    Point p3{60, 70};
+    Point p4{257, 288};
+
+    Arrow arr2{p3, p4};
+
     win.attach(arr1);
+    win.attach(arr2);
 	win.wait_for_button();
     return 0;
 }
