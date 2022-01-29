@@ -12,7 +12,7 @@ OBJ = $(patsubst %, $(ODIR)/%,$(_OBJ))
 DEPS = Arrow.h
 
 # Libraries
-LIBS=-lfltk -lfltk_images
+LIBS=-lm -lfltk -lfltk_images
 
 # Compile stage
 $(ODIR)/%.o: %.cpp $(DEPS)
