@@ -3,21 +3,11 @@
 Arrow::Arrow(Point aa, Point bb)
     : a{aa}, b{bb}
 {
-    // do geometry here
-    
-    // get points for arrow head -> this is the tricky bit
-    // Point c{40, 20};
-    // Point d{20, 40};
-
-    // draw arrow head
-    // this->add_point(a);
-    // this->add_point(c);
-    // this->add_point(d);
-    // this->black();
-
-    // add(aa);
+    // empty
 }
-Arrow::~Arrow(){}
+Arrow::~Arrow(){
+    // empty
+}
 
 void Arrow::draw_lines() const{
     double start;
@@ -52,6 +42,4 @@ void Arrow::draw_lines() const{
         
     }
     fl_pie(a.x - arrow_size/2, a.y - arrow_size/2, arrow_size, arrow_size, start, end);
-    
-    
 }

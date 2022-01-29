@@ -8,59 +8,33 @@ int main(){
 	Point tl{100,100};		// to become top left corner of window
 	Simple_window win{tl, 700, 700, "Arrow Test"};
 
-    // // First Arrow
-    // Point tail1{100, 100};
-    // Point head1{190, 10};
-
-    // Arrow arr1{head1, tail1};
-
-
-    // // Second Arrow
-    // Point tail2{100, 100};
-    // Point head2{10, 10};
-
-    // Arrow arr2{head2, tail2};
-
-    // // Third Arrow
-    // Point tail3{100, 100};
-    // Point head3{10, 190};
-
-    // Arrow arr3{head3, tail3};
-
-    // // Fourth Arrow
-    // Point tail4{100, 100};
-    // Point head4{190, 190};
-
-    // Arrow arr4{head4, tail4};
-
-    // win.attach(arr1);
-    // win.attach(arr2);
-    // win.attach(arr3);
-    // win.attach(arr4);
-
-    // Random arrow
+    // first arrow
     Point p1{23, 500};
     Point p2{250, 43};
     Arrow arr7{p1, p2};
+    arr7.set_color(Color::white);
     win.attach(arr7);
 
-    // Random arrow
-    // Point p3{230, 50};
-    // Point p4{25, 430};
-    // Arrow arr9{p3, p4};
-    // win.attach(arr9);
-
-    // Random arrow
-    // Point p3{521, 491};
-    // Point p4{111, 54};
-    // Arrow arr9{p4, p3};
-    // win.attach(arr9);
-
-    // Random arrow
+    // second arrow
     Point p3{17, 565};
     Point p4{500, 54};
     Arrow arr9{p4, p3};
+    arr9.set_color(Color::dark_red);
     win.attach(arr9);
+
+    // third arrow
+    Point p5{545, 565};
+    Point p6{23, 32};
+    Arrow arr12{p6, p5};
+    arr12.set_color(Color::dark_green);
+    win.attach(arr12);
+
+    // fourth arrow
+    Point p7{22, 11};
+    Point p8{444, 666};
+    Arrow arr17{p8, p7};
+    arr17.set_color(Color::blue);
+    win.attach(arr17);
 
 
 	win.wait_for_button();
