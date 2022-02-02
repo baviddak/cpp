@@ -16,8 +16,8 @@ int main(){
     win.attach(arr7);
 
     // second arrow
-    Point p3{17, 565};
-    Point p4{500, 54};
+    Point p3{200, 565};
+    Point p4{240, 12};
     Arrow arr9{p4, p3};
     arr9.set_color(Color::dark_red);
     win.attach(arr9);
