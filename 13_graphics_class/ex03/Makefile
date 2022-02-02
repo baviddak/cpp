@@ -16,7 +16,7 @@ LIBS=-lm -lfltk -lfltk_images
 
 # Compile stage
 $(ODIR)/%.o: %.cpp $(DEPS)
-	$(CC) -c -g -o $@ $(CXXFLAGS) $< 
+	$(CC) -c -o $@ $(CXXFLAGS) $< 
 
 # Link stage
 Arrow.exe: $(OBJ) $(GUIDIR)*.o
