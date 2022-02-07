@@ -1,5 +1,5 @@
 #include "Simple_window.h"
-#include "Frowny.h"
+#include "Faces.h"
 
 int main(){
     //do something
@@ -11,10 +11,16 @@ int main(){
     // first frown
     Point p1{350, 350};
     int rad1{67};
-    Frowny frown1{p1, rad1};
-    // frown1.set_color(Color::white);
-    win.attach(frown1);
+    Frowny frowny1{p1, rad1};
+    frowny1.set_color(Color::dark_blue);
+    win.attach(frowny1);
 
+    // first smiley
+    Point p2{120, 120};
+    int rad2{88};
+    Smiley smiley1{p2, rad2};
+    smiley1.set_color(Color::dark_magenta);
+    win.attach(smiley1);
 
 	win.wait_for_button();
     return 0;
