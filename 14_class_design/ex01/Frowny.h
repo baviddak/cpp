@@ -7,9 +7,10 @@ using namespace Graph_lib;
 
 struct Frowny : Circle {
     public:
-        Frowny(Point aa, Point bb);
+        // Frowny(Point pp, int rr);
+        using Circle::Circle;
         ~Frowny();
-
-}
+        void draw_lines() const;
+};
 
 #endif // FROWNY_H_
