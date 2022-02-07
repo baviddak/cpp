@@ -18,4 +18,18 @@ struct Smiley : Circle {
         void draw_lines() const;
 };
 
+
+struct Frowny_hat : Frowny {
+    public:
+        using Frowny::Frowny;
+        void draw_lines() const;
+};
+
+
+struct Smiley_hat : Smiley {
+    public:
+        using Smiley::Smiley;
+        void draw_lines() const;
+};
+
 #endif // FACES_H_
