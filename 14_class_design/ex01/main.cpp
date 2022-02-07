@@ -6,7 +6,7 @@ int main(){
     using namespace Graph_lib;	// our graphics facilities are in Graph_lib
 
 	Point tl{100,100};		// to become top left corner of window
-	Simple_window win{tl, 600, 600, "Frown Test"};
+	Simple_window win{tl, 600, 600, "Faces Test"};
 
     // first frown
     Point p1{350, 350};
