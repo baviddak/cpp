@@ -1,5 +1,5 @@
-./.vscode/*
-./GUI/*
+./.vscode/
+./GUI/
 *.exe
 *.txt
 *.o
