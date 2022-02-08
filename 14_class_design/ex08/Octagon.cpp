@@ -3,14 +3,14 @@
 Octagon::Octagon(Point cc, int ss){
     int angle_ss = (cos_45)*static_cast<float>(ss);
 
-    Polygon::add(Point{cc.x - ss, cc.y});
-    Polygon::add(Point{cc.x - angle_ss, cc.y - angle_ss});
-    Polygon::add(Point{cc.x, cc.y - ss});
-    Polygon::add(Point{cc.x + angle_ss, cc.y - angle_ss});
-    Polygon::add(Point{cc.x + ss, cc.y});
-    Polygon::add(Point{cc.x + angle_ss, cc.y + angle_ss});
-    Polygon::add(Point{cc.x, cc.y + ss});
-    Polygon::add(Point{cc.x - angle_ss, cc.y + angle_ss});
+    add(Point{cc.x - ss, cc.y});
+    add(Point{cc.x - angle_ss, cc.y - angle_ss});
+    add(Point{cc.x, cc.y - ss});
+    add(Point{cc.x + angle_ss, cc.y - angle_ss});
+    add(Point{cc.x + ss, cc.y});
+    add(Point{cc.x + angle_ss, cc.y + angle_ss});
+    add(Point{cc.x, cc.y + ss});
+    add(Point{cc.x - angle_ss, cc.y + angle_ss});
 
 }
 
