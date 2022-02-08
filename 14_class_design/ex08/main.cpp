@@ -22,10 +22,19 @@ int main(){
     Point p2{120, 120};
     int size2{60};
     Octagon octa2{p2, size2};
-    octa2.set_color(Color::dark_cyan);
-    // octa2.set_fill_color(Color::dark_green);
-    // octa2.fill_color();
+    // octa2.set_color(Color::dark_cyan);
+    octa2.set_fill_color(Color::dark_green);
+    octa2.fill_color();
     win.attach(octa2);
+
+    // second octagon
+    Point p3{120, 350};
+    int size3{60};
+    Octagon octa3{p3, size3};
+    octa3.set_color(Color::dark_cyan);
+    // octa3.set_fill_color(Color::dark_green);
+    // octa3.fill_color();
+    win.attach(octa3);
 
 	win.wait_for_button();
     return 0;
