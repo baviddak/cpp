@@ -7,7 +7,7 @@ using namespace Graph_lib;
 
 constexpr double cos_45 = 0.70710678118;
 
-struct Octagon : Closed_polyline {
+struct Octagon : Polygon {
     public: 
         Octagon(Point cc, int ss);
         ~Octagon();
