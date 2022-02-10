@@ -27,7 +27,7 @@ int main(){
     octa2.fill_color();
     win.attach(octa2);
 
-    // second octagon
+    // third octagon
     Point p3{120, 350};
     int size3{60};
     Octagon octa3{p3, size3};
@@ -35,6 +35,13 @@ int main(){
     // octa3.set_fill_color(Color::dark_green);
     // octa3.fill_color();
     win.attach(octa3);
+
+    // fourth octagon
+    Point p4{350, 150};
+    int size4{60};
+    Octagon octa4{p4, size4};
+    octa4.set_color(Color::red);
+    win.attach(octa4);
 
 	win.wait_for_button();
     return 0;
