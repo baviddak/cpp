@@ -1,3 +1,1 @@
-# Programming Principles Solutions
-
-## Test
+Here are my solutions for Programming: Principles and Practice Using C++.
