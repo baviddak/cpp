@@ -22,7 +22,6 @@ int main(){
     smiley1.set_color(Color::dark_magenta);
     win.attach(smiley1);
 
-
     // first frown with hat
     Point p3{350, 145};
     int rad3{120};
