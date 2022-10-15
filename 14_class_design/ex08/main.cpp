@@ -2,8 +2,8 @@
 #include "Octagon.h"
 
 int main(){
-    //do something
-    using namespace Graph_lib;	// our graphics facilities are in Graph_lib
+    // our graphics facilities are in Graph_lib
+    using namespace Graph_lib;
 
 	Point tl{100,100};		// to become top left corner of window
 	Simple_window win{tl, 600, 600, "Octagon Test"};
@@ -16,7 +16,6 @@ int main(){
     // octa1.set_fill_color(Color::dark_green);
     octa1.fill_color();
     win.attach(octa1);
-
 
     // second octagon
     Point p2{120, 120};
