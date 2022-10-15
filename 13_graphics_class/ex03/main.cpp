@@ -2,8 +2,8 @@
 #include "Arrow.h"
 
 int main(){
-    //do something
-    using namespace Graph_lib;	// our graphics facilities are in Graph_lib
+    // our graphics facilities are in Graph_lib
+    using namespace Graph_lib;
 
 	Point tl{100,100};		// to become top left corner of window
 	Simple_window win{tl, 700, 700, "Arrow Test"};
