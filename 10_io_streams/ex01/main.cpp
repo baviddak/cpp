@@ -41,7 +41,7 @@ void fill_vector(istream& ist, vector<int>& vec, char terminator) {
 int main() {
 
 	// Get the input filename 
-	cout << "Please enter a filename: ";
+	cout << "Enter a filename: ";
 	string iname;
 	cin >> iname;
 

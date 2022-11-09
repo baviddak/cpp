@@ -1,3 +1,5 @@
+// Write a program that removes all vowels from a file.
+
 #include <iostream> 
 #include <vector>
 #include <string>
@@ -16,7 +18,7 @@ void disemvowel(fstream& fs){
 	for(char ch; fs>>ch; ){
 		if(*find(vowels.begin(), vowels.end(), ch) == ch) {
 			// do nothing
-    	}else{
+		}else{
 			// add to new string
 			new_text+=ch;
 		} 
@@ -28,9 +30,7 @@ void disemvowel(fstream& fs){
 }
 
 int main() { 
-	// Write a program that removes all vowels
-    // from a file
-
+	
 	// open an istream
 	cout << "Please ever an input filename\n";
 	string iname;
@@ -41,8 +41,8 @@ int main() {
 		return -1;
 	}
 
+	// test our function
 	disemvowel(fs);
-
 	
 	return 0;
 }

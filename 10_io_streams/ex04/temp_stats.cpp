@@ -90,8 +90,3 @@ int main(int argc, char *argv[]) {
 
 	return 0;
 }
-
-// An alternative approach would be to do operator over loading for the Reading struct
-// The operator "<<" would push back
-// You could also then do operator overloading for the ">>" operator, which would
-// print out the contents of the struct
