@@ -5,7 +5,7 @@
 
 using namespace std;
 
-void print_sum(const vector<int> vec) { 
+void print_sum(const vector<int> vec) {
 
 	int sum {0};
 
@@ -14,8 +14,6 @@ void print_sum(const vector<int> vec) {
 	}
 
 	cout << "The sum is: " << sum << "\n";
-
-	// do something
 }
 
 void fill_vector(istream& ist, vector<int>& vec, char terminator) {
@@ -35,7 +33,6 @@ void fill_vector(istream& ist, vector<int>& vec, char terminator) {
 		ist.unget();	// maybe my caller can use that character 
 		ist.clear(ios_base::failbit);	// manually set the state to fail()
 	}
-
 }
 
 int main() {
