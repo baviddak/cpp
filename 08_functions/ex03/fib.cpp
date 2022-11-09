@@ -1,6 +1,8 @@
 // Create a vector of Fibonacci numbers and print them using the function from 
 // exercise 2.
 
+// Usage: ./fib.exe
+
 #include <iostream>
 #include <vector>
 #include <string>

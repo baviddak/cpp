@@ -1,6 +1,8 @@
 // Write a function print() that prints a vector of ints to cout. Give it two 
 // arguments: a string for "labeling" the output and a vector.
 
+// Usage: ./print.exe
+
 #include <iostream>
 #include <vector>
 #include <string>

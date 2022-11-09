@@ -1,3 +1,6 @@
+// Write a function that given two vector<double>s price and weight computes a 
+// value (an "index") that is the sum of all price[i]*weight[i].
+
 #include <iostream> 
 #include <vector> 
 
@@ -5,15 +8,14 @@ using namespace std;
 
 double compute_index(const vector<double>& price, const vector<double>& weight) {
 
+	double index = 0.0;
+
 	if( weight.size() != price.size() ) {
 		cout << "Error, price and weight not same size\n";
 		return -1.1;
 	}
 
-
-	double index = 0.0;
-
-	for( int i=0; i < weight.size(); ++i) {
+	for(int i=0; i < weight.size(); ++i) {
 		index += weight[i]*price[i];
 	}
 

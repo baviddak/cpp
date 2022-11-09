@@ -1,7 +1,7 @@
 #include "Simple_window.h"
 #include "Graph.h"
 
-int main() { 
+int main() {
 	using namespace Graph_lib;
 
 	Point tl {100,100};
@@ -24,13 +24,8 @@ int main() {
 	Rectangle retg{Point{50,50}, 100,100};
 
 	retg.set_color(Color::blue);
-
 	win.attach(retg);
 
-	// done creating chapes
+	// done creating shapes
 	win.wait_for_button();
-
 }
-
-
-

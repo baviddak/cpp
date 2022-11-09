@@ -1,16 +1,23 @@
+// Write two functions that reverse the order of elements in a vector<int>... 
+// The first reverse function should produce a new vector... The other should 
+// reverse the elements of its vector without using any other vectors (hint: 
+// swap).
+
+// Usage: ./reverse.exe
+
 #include <iostream> 
 #include <vector> 
 
 using namespace std;
 
-void print(const string& label, const vector<int>& vec) { 
+void print(const string& label, const vector<int>& vec) {
 
 	for(unsigned i = 0;i < vec.size(); ++i) {
 		cout << label << ": " << vec[i] << "\n";
 	}
 }
 
-void reverse1(const vector<int>& vec, vector<int>& ret_vec) { 
+void reverse1(const vector<int>& vec, vector<int>& ret_vec) {
 	int size = vec.size() - 1;
 
 	for(int i = size; i >= 0; i--) {
@@ -21,12 +28,12 @@ void reverse1(const vector<int>& vec, vector<int>& ret_vec) {
 void reverse2(vector<int>& vec) { 
 	int inc = 0;
 
-	if ( vec.size() == 0) return;
+	if (vec.size() == 0) return;
 
 	while(inc < (vec.size() - (inc + 1))) {
 		swap(vec[inc], vec[vec.size() - (1 + inc)]);
 		++inc;
-	}	
+	}
 }
 
 int main () { 

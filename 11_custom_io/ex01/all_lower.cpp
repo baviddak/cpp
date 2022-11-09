@@ -35,7 +35,7 @@ int main(int argc, char *argv[]) {
 	}
 
 	// Do a to lower for each line
-	// Bug fixed: Shoud define the temp variables as a string reference, not auto
+	// Bug fixed: Should define the temp variables as a string reference, not auto
 	for (string& i : lines) {
 		tolower(i);
 	}
