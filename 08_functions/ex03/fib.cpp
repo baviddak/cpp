@@ -1,3 +1,6 @@
+// Create a vector of Fibonacci numbers and print them using the function from 
+// exercise 2.
+
 #include <iostream>
 #include <vector>
 #include <string>
@@ -10,7 +13,7 @@ void print(const string& label, const vector<int>& vec) {
 	}
 }
 
-void fibonacci(int x, int y, vector<int>& vec, int n) { 
+void fibonacci(int x, int y, vector<int>& vec, unsigned int n) { 
 	vec.clear();
 	vec.push_back(x);
 	vec.push_back(y);
@@ -19,10 +22,9 @@ void fibonacci(int x, int y, vector<int>& vec, int n) {
 		vec.push_back(temp);
 	}
 }
-		
-int main() { 
-	// vector<int> vec {12, 23, 21, 3, 1};
-	
+
+int main() {
+
 	string label = "Label for the number";
 	vector<int> vec;
 	int x = 1;

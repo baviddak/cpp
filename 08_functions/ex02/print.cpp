@@ -1,8 +1,9 @@
+// Write a function print() that prints a vector of ints to cout. Give it two 
+// arguments: a string for "labeling" the output and a vector.
+
 #include <iostream>
 #include <vector>
 #include <string>
-
-// This is a test comment
 
 using namespace std;
 
@@ -11,7 +12,6 @@ void print(const string& label, const vector<int>& vec) {
 		cout << label << ": " << vec[i] << "\n";
 	}
 }
-
 
 int main() { 
 	vector<int> vec {12, 23, 21, 3, 1};
