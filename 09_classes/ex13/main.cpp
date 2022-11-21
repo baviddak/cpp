@@ -1,10 +1,11 @@
+// Design and implement a rational number class, Rational. A rational number has
+// two parts: a numerator and a denominator, for example, 5/6.
+
 #include "Rational.h"
 
 int main() {
-	// Implement rationals ...
-	// Provide assignment, addition, subtraction, 
-	// multiplication, division and equality operators
 
+	// create some examples
 	Rational aa{34, 3};
 	Rational bb{22, 11};
 	Rational cc = aa;
