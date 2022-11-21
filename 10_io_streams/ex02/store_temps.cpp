@@ -1,3 +1,6 @@
+// Write a program that creates a file of data in the form of the temperature 
+// Reading type defined in 10.5. 
+
 #include <iostream> 
 #include <fstream> 
 #include <vector> 

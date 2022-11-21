@@ -1,3 +1,6 @@
+// Write a program that produces the sum of all the number in a file of 
+// whitespace-seperated integers.
+
 #include <iostream> 
 #include <fstream>
 #include <vector> 

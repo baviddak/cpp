@@ -1,3 +1,6 @@
+// Modify the store_temps.cpp program from exercise 2 to include a temperature 
+// suffix c for Celcius or f for Farenheit tempuratures.
+
 #include <iostream> 
 #include <fstream> 
 #include <vector> 

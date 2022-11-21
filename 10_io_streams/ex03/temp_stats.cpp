@@ -1,3 +1,6 @@
+// Write a program that reads the data from raw_temps.txt created in exercise 2 
+// into a vector and then calculates the mean and median tempuratures.
+
 #include <iostream> 
 #include <fstream> 
 #include <vector> 
