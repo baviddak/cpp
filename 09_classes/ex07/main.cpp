@@ -1,3 +1,6 @@
+// Create an enumerated type of the Book class called Genre. Have the types be
+// fiction, nonfiction, periodical, biography, and children.
+
 #include "Book.h"
 
 int main() {
