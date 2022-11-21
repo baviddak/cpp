@@ -1,3 +1,7 @@
+// Design and implement a Name_pairs class holding (name, age) pairs where name 
+// is a string and age is a double. Represent that as a vector<string> (called 
+// name) and vector<double> (called age) member.
+
 #include "Name_pairs.h"
 
 int main() {
