@@ -1,3 +1,7 @@
+// Write a program that reads strings and for each string outputs the character
+// classification of each character, as defined by the character classification
+// functions presented in 11.6.
+
 #include <iostream> 
 #include <vector>
 #include <string>

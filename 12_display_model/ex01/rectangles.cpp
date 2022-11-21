@@ -1,3 +1,6 @@
+// Draw a rectangle as a Rectagle and as a Polygon. Make the lines of the 
+// Polygon red and the lines of the Rectangle blue.
+
 #include "Simple_window.h"
 #include "Graph.h"
 

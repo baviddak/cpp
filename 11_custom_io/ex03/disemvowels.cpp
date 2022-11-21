@@ -1,4 +1,4 @@
-// Write a program that removes all vowels from a file.
+// Write a program that removes all vowels from a file ("disemvowels").
 
 #include <iostream> 
 #include <vector>

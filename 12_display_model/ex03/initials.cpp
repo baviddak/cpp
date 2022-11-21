@@ -1,3 +1,6 @@
+// Draw your initials 150 pixels high. Use a thick line. Draw each initial in a 
+// different color.
+
 #include "Simple_window.h"
 #include "Graph.h"
 

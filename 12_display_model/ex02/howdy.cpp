@@ -1,3 +1,5 @@
+// Draw a 100-by-30 Rectangle and place the text "Howdy!" inside it.
+
 #include "Simple_window.h"
 #include "Graph.h"
 
