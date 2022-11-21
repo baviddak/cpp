@@ -1,3 +1,5 @@
+// Define a class Arrow, which draws a line with an arrowhead.
+
 #include "Simple_window.h"
 #include "Arrow.h"
 

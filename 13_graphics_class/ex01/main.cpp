@@ -1,3 +1,5 @@
+// Define a class Arc, which draws a part of an ellipse. Hint: fl_arc().
+
 #include "Simple_window.h"
 #include "Arc.h"
 

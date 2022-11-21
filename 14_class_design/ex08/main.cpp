@@ -1,3 +1,6 @@
+// Define a class Octagon to be a regular octagon. Write a test that exercises 
+// all of its functions (as defined by you or inherited from Shape).
+
 #include "Simple_window.h"
 #include "Octagon.h"
 

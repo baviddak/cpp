@@ -1,3 +1,6 @@
+// Draw a box with rounded corners. Define a class Box, consisting of four lines
+// and four arcs.
+
 #include "Simple_window.h"
 #include "Box.h"
 

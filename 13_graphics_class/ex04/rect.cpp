@@ -1,3 +1,6 @@
+// Define functions n(), s(), e(), w(), center(), ne(), se(), sw(), and nw(). 
+// Each takes a Rectangle argument and returns a Point.
+
 // #include <iostream>
 #include "Simple_window.h"
 
