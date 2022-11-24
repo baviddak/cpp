@@ -6,7 +6,7 @@
 using namespace Graph_lib;
 
 struct Striped_rectangle : Rectangle {
-    using Rectangle::Rectangle;
+	using Rectangle::Rectangle;
 	void draw_lines() const;
 };
 
