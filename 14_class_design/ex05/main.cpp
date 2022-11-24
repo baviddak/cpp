@@ -18,6 +18,13 @@ int main(){
 	Striped_rectangle sr1{p1, p2};
 	sr1.set_color(Color::dark_blue);
 	win.attach(sr1);
+
+    // Draw a second striped rectangle
+	Point p3{250, 70};
+    Point p4{350, 350};
+	Striped_rectangle sr2{p3, p4};
+	sr2.set_color(Color::red);
+	win.attach(sr2);
 	
 	win.wait_for_button();
 	return 0;
