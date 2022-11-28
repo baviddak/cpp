@@ -1,7 +1,7 @@
 # Set variables
 CC=g++
 GUIDIR=../../GUI/
-CXXFLAGS=-Wall -I. -I$(GUIDIR) -std=c++14
+CXXFLAGS=-Wall -I. -I$(GUIDIR) -std=c++17
 ODIR=obj
 
 # Objects
