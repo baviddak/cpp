@@ -1,8 +1,9 @@
 # Answers to Programming: Principles and Practice Using C++
 
-Here are my solutions for Programming: Principles and Practice Using C++ 
+Here are my solutions for *Programming: Principles and Practice Using C++* 
 exercises. I worked on these as a way to learn C++ without having to think of a 
-project to build. I would probably not write code this way anymore
+project to build. These we're done for fun and should not be taken as complete 
+or correct. 
 
 ## Building the Code
 
